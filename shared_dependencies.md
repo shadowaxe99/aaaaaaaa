@@ -1,30 +1,32 @@
-Shared Dependencies:
+**Exported Variables:**
+- `AIModel`: The AI model used for generating intelligent responses.
+- `BlockchainModel`: The blockchain model used for minting and verifying NFTs.
+- `UserModel`: The user model used for storing user data and interaction history.
+- `MarketplaceModel`: The marketplace model used for managing the AI marketplace.
 
-1. **Exported Variables:** 
-   - `teaserContent`: The content for the teaser section.
-   - `aboutContent`: The content for the about section.
-   - `teamMembers`: An array of team member objects for the team section.
-   - `contactFormData`: The data from the contact form.
-   - `subscriptionData`: The data from the subscription module.
+**Data Schemas:**
+- `UserSchema`: Schema for user data, including profile and interaction history.
+- `AISchema`: Schema for AI data, including AI-NFT interaction history and minted AI-NFTs.
+- `BlockchainSchema`: Schema for blockchain data, including minting process and verification.
+- `MarketplaceSchema`: Schema for marketplace data, including available AI personas and transactions.
 
-2. **Data Schemas:**
-   - `UserContactData`: Schema for user's contact data.
-   - `SubscriptionData`: Schema for subscription details.
+**DOM Element IDs:**
+- `educationalIntro`: The ID for the educational introduction component.
+- `aiInteraction`: The ID for the AI interaction component.
+- `mintingProcess`: The ID for the minting process component.
+- `aiMarketplace`: The ID for the AI marketplace component.
+- `userProfile`: The ID for the user profile component.
+- `aiPersona`: The ID for the AI persona component.
 
-3. **ID Names of DOM Elements:**
-   - `teaser-section`: The teaser section on the index page.
-   - `about-section`: The about section on the about page.
-   - `team-section`: The team section on the team page.
-   - `contact-form`: The contact form on the contact page.
-   - `subscription-module`: The subscription module on the subscribe page.
+**Message Names:**
+- `AIResponse`: The message name for AI responses.
+- `MintingStatus`: The message name for minting process status updates.
+- `MarketplaceUpdate`: The message name for marketplace updates.
 
-4. **Message Names:**
-   - `formSubmissionSuccess`: Message displayed when form submission is successful.
-   - `formSubmissionError`: Message displayed when form submission fails.
-
-5. **Function Names:**
-   - `loadTeaserContent()`: Function to load the teaser content.
-   - `loadAboutContent()`: Function to load the about content.
-   - `loadTeamMembers()`: Function to load the team members.
-   - `submitContactForm()`: Function to handle contact form submission.
-   - `subscribe()`: Function to handle subscription.
+**Function Names:**
+- `startGuide`: Function to start the educational introduction.
+- `interactWithAI`: Function to interact with the AI agent.
+- `startMinting`: Function to start the minting process.
+- `browseMarketplace`: Function to browse the AI marketplace.
+- `updateUserProfile`: Function to update the user profile.
+- `collectAIPersona`: Function to collect an AI persona.
